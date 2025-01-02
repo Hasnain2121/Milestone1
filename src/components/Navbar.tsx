@@ -7,19 +7,19 @@ const Navbar = () => {
        <nav className="flex justify-between items-center px-6 py-4 bg-white shadow-md">
       <div className="text-2xl text-center font-bold text-gray-800"><a href="http://localhost:3000/">Taste Delicious  </a>
 </div> 
-      <ul className="flex space-x-6 text-gray-700">
+       <ul className="flex space-x-6 text-gray-700">
         <li>
-          <Link href="http://localhost:3000/about" className="hover:text-gray-900 ">
+          <Link href="/about" className="hover:text-gray-900 ">
             About
           </Link>
         </li>
         <li>
-          <Link href="http://localhost:3000/servicess" className="hover:text-gray-900 ">
+          <Link href="/servicess" className="hover:text-gray-900 ">
             Services
           </Link>
         </li>
         <li>
-          <Link href="http://localhost:3000/contact" className="hover:text-gray-900">
+          <Link href="/contact" className="hover:text-gray-900">
             Contact
           </Link>
         </li>
