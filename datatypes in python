@@ -1,0 +1,346 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOz9rDxkPztejqBu8xqjqf/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Hasnain2121/Milestone1/blob/main/datatypes%20in%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HnovQWyFM9Nv",
+        "outputId": "d86198d0-1a26-4852-8091-2934468527c9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Naveed\n"
+          ]
+        }
+      ],
+      "source": [
+        "userName = \"Naveed\"\n",
+        "print (userName)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "integers Tyes Data"
+      ],
+      "metadata": {
+        "id": "vJ795WWzNjMW"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 6969\n",
+        "print(\"Num 1 =\" , num1 )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4pSLGTrNNhwL",
+        "outputId": "7f4e0bdd-b4b6-4494-ca64-72ece34dcfba"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Num 1 = 6969\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1. NUMBERS\n",
+        "2. SEQUENCE TYPE\n",
+        "3. DICTIONARY\n",
+        "\n",
+        "\n",
+        "In the NUMBERS TYPE ///\n",
+        "1. integers\n",
+        "2. float\n",
+        "3. complex Number"
+      ],
+      "metadata": {
+        "id": "fGUIrx6VRbfE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5\n",
+        "print(a , \"is type of\", type(a) )\n",
+        "\n",
+        "a = 5.0\n",
+        "print(a , \"is type of\", type(a) )\n",
+        "\n",
+        "a = 1+2j\n",
+        "print(a , \"is type of\", type(a) )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HPA1f6fXQsqb",
+        "outputId": "407b310f-a1b2-4951-c244-38b776e40fae"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5 is type of <class 'int'>\n",
+            "5.0 is type of <class 'float'>\n",
+            "(1+2j) is type of <class 'complex'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. SEQUENCE\n",
+        "\n",
+        "1.string\n",
+        "2. List\n",
+        "3.Tuple\n",
+        "\n",
+        "Immutable data type\n",
+        "\n",
+        "1. string ///\n",
+        "\n",
+        "'' single cotation\n",
+        "\"\" double cotation\n",
+        "\"\"\" , '''''' Triple cotations\n",
+        "\n",
+        "\n",
+        "```\n",
+        "# This is formatted as code\n",
+        "```\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "zuvQp1fiSPLy"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name1 = 'hasnain 123'\n",
+        "print (name1,\"is type of\", type(name1))\n",
+        "\n",
+        "name2 =  \"hasnain 123@ \"\n",
+        "print (name2,\"is type of\", type(name2))\n",
+        "name3 =  \"\"\"\n",
+        "  Hi\n",
+        "  My Name Is Hasnain\"\"\"\n",
+        "print (name3,\"is type of\", type(name3))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TAT4XUsHSIlA",
+        "outputId": "82b4f131-bd27-4d20-8105-a996dcebd954"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hasnain 123 is type of <class 'str'>\n",
+            "hasnain 123@  is type of <class 'str'>\n",
+            " \n",
+            "  Hi \n",
+            "  My Name Is Hasnain is type of <class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. List ///\n",
+        "\n",
+        "Mutable data type"
+      ],
+      "metadata": {
+        "id": "6Dhz0do2VvU1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "l = [1, 8.2 , \"Hasnain\"]\n",
+        "print (l ,\"is type of \", type(l))\n",
+        "\n",
+        "l[2]=10\n",
+        "print (l ,\"is type of \", type(l))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9Te_TgfhSX8J",
+        "outputId": "a6ce54dc-de52-4727-f5e7-2fbc3ff44173"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 8.2, 'Hasnain'] is type of  <class 'list'>\n",
+            "[1, 8.2, 10] is type of  <class 'list'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. Tuple ///\n",
+        "Immutable"
+      ],
+      "metadata": {
+        "id": "yYE2jm-1Xi-T"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "t = (10,20,\"Hello\")\n",
+        "print(t,type(t))\n",
+        "v = (10)\n",
+        "print(t,type(v))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nEJG5RTWXhs6",
+        "outputId": "8bef8adf-fd9d-4b2f-b8ab-bc0466b9472c"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(10, 20, 'Hello') <class 'tuple'>\n",
+            "(10, 20, 'Hello') <class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. Dictionary"
+      ],
+      "metadata": {
+        "id": "MyKX4WHGZKMm"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "d = {\n",
+        "    'Name' :'Hasnain',\n",
+        "    'age' : 20\n",
+        "}\n",
+        "\n",
+        "\n",
+        "print(d['Name'])\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zEDouLNJYKNc",
+        "outputId": "f96bd947-8887-493b-eb9f-9d8092e7f337"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hasnain\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Sets"
+      ],
+      "metadata": {
+        "id": "hdU6SkYjZI_7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s={1,20,40,10,20}\n",
+        "print(s, type(s))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CqRqgXXIauMt",
+        "outputId": "19210c8c-52b1-47cd-db9f-4e48b8fef495"
+      },
+      "execution_count": 50,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{40, 1, 10, 20} <class 'set'>\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
